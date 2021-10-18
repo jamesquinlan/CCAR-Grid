@@ -88,7 +88,7 @@ along with VCMP.  If not, see <http://www.gnu.org/licenses/>.
 -----------------------------------------------------------------------
 MATLAB Version:        MATLAB Version: 9.10.0.1602886 (R2021a)
 Author:                James Quinlan                                  
-Modified:              04/01/2021
+Modified:              10/18/2021
  
 Real-cell detector: sum(G.cells(:,1:3)==0,2)<2
 ----------------------------------------------------------------------- 

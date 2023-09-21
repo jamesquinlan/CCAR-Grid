@@ -114,17 +114,6 @@ classdef Grid < handle
         % Prop5  double {mustBePositive} = 15
     end
     
-    %{
-    properties (Dependent)
-        nbfaces       % Number of Bdry Faces
-    end
-     
-    methods
-       function y = get.nbfaces(G)
-            y = sum(G.faces(:,5)>0);  
-       end   
-    end
-    %}
     
     methods
         % Constructor   
@@ -133,8 +122,6 @@ classdef Grid < handle
             if nargin<4                          
                 dx=1;dy=1;dz=1; % Default Grid Width
             end
-           
-            % isfine = dx*dy*dz == 1;
             
             % Coarse grid size (if fine, then coarse = fine)
             G.coarse = [dx dy dz];
@@ -229,8 +216,6 @@ classdef Grid < handle
 
             % -------------------- 19 cell number (row index) sequential --------  
             G.cells(:,19) = 1:G.ncells;
-            
-            % PURGE HERE so .faces contains correct cell id's.    
             
             
             %% FACES: IDENTIFY & INDEX

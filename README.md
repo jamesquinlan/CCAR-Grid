@@ -1,6 +1,6 @@
 # Grid Class
 
-Cartesian Cell-based Anisotropic Refinement (CCAR) Grid.  Performs adaptive anisotropic refinement for accurate and robust flow simulation.
+Cartesian Cell-based Anisotropic Refinement (CCAR) Grid.  Performs adaptive anisotropic mesh refinement for flow simulation.
 
 ```
 MATLAB Version: 9.10.0.1602886 (R2021a)

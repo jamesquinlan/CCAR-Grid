@@ -25,8 +25,8 @@ Gridi, (Grid with an "i"), is an attempt to improve the original grid class.  Im
 
 ```
 @incollection{davis2017adaptive,
-  title={Adaptive Mesh Refinement: An Essential Ingredient in Computational Science.},
   author={Davis, P},
+  title={Adaptive Mesh Refinement: An Essential Ingredient in Computational Science.},
   booktitle={SIAM News},
   year={2017}, 
   Keywords = {AMR, Gridding},
@@ -34,11 +34,12 @@ Gridi, (Grid with an "i"), is an attempt to improve the original grid class.  Im
 }
 
 @inproceedings{nilsson2005novel,
-	Author = {Nilsson, J. and Gerritsen, M. and Younis, R. and others},
-	Keywords = {CCAR, grid adaptivity, anisotropic},
-	Annote = {Development of CCAR for anisotropy. },
-	Booktitle = {SPE reservoir simulation symposium},
-	Organization = {Society of Petroleum Engineers},
-	Title = {A novel adaptive anisotropic grid framework for efficient reservoir simulation},
-	Year = {2005}}
+  author = {Nilsson, J. and Gerritsen, M. and Younis, R. and others},
+  title = {A novel adaptive anisotropic grid framework for efficient reservoir simulation},
+  booktitle = {SPE reservoir simulation symposium},
+  organization = {Society of Petroleum Engineers},
+  year = {2005},
+  keywords = {CCAR, grid adaptivity, anisotropic},
+  annote = {Development of CCAR for anisotropy.}
+}
 ``` 

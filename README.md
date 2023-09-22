@@ -26,29 +26,29 @@ Gridi, (Grid with an "i"), is an attempt to improve the original grid class.  Im
 
 ```
 @article{berger1989local,
-	 Author = {Berger, Marsha J and Colella, Phillip},
-	 Annote = {},
-	 Journal = {Journal of Computational Physics},
-	 Keywords = {gridding, adaptive mesh refinement},
-	 Number = {1},
-	 Pages = {64--84},
-	 Publisher = {Elsevier},
-	 Title = {Local adaptive mesh refinement for shock hydrodynamics},
-	 Volume = {82},
-	 Year = {1989}
+  author = {Berger, Marsha J and Colella, Phillip},
+  journal = {Journal of Computational Physics},
+  number = {1},
+  pages = {64--84},
+  publisher = {Elsevier},
+  title = {Local adaptive mesh refinement for shock hydrodynamics},
+  volume = {82},
+  year = {1989},
+  annote = {},
+  keywords = {gridding, adaptive mesh refinement},
 }
 
 @article{berger1984adaptive,
-	 Author = {Berger, Marsha J and Oliger, Joseph},
-	 Annote = {},
-	 Keywords = {gridding, adaptive mesh refinement},
-	 Journal = {Journal of Computational Physics},
-	 Number = {3},
-	 Pages = {484--512},
-	 Publisher = {Elsevier},
-	 Title = {Adaptive mesh refinement for hyperbolic partial differential equations},
-	 Volume = {53},
-	 Year = {1984}
+  author = {Berger, Marsha J and Oliger, Joseph},
+  journal = {Journal of Computational Physics},
+  number = {3},
+  pages = {484--512},
+  publisher = {Elsevier},
+  title = {Adaptive mesh refinement for hyperbolic partial differential equations},
+  volume = {53},
+  year = {1984},
+  annote = {},
+  keywords = {gridding, adaptive mesh refinement}
 }
 
 @incollection{davis2017adaptive,

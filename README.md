@@ -1,6 +1,7 @@
 # Grid Class
 
 Cartesian Cell-based Anisotropic Refinement (CCAR) Grid.  Performs adaptive anisotropic mesh refinement for flow simulation.
+Visualizations included the grid itself, with or without cell centers marked, and the velocity field.  
 
 ```
 MATLAB Version: 9.10.0.1602886 (R2021a)
@@ -24,6 +25,32 @@ Gridi, (Grid with an "i"), is an attempt to improve the original grid class.  Im
 ## References
 
 ```
+@article{berger1989local,
+	 Author = {Berger, Marsha J and Colella, Phillip},
+	 Annote = {},
+	 Journal = {Journal of Computational Physics},
+	 Keywords = {gridding, adaptive mesh refinement},
+	 Number = {1},
+	 Pages = {64--84},
+	 Publisher = {Elsevier},
+	 Title = {Local adaptive mesh refinement for shock hydrodynamics},
+	 Volume = {82},
+	 Year = {1989}
+}
+
+@article{berger1984adaptive,
+	 Author = {Berger, Marsha J and Oliger, Joseph},
+	 Annote = {},
+	 Keywords = {gridding, adaptive mesh refinement},
+	 Journal = {Journal of Computational Physics},
+	 Number = {3},
+	 Pages = {484--512},
+	 Publisher = {Elsevier},
+	 Title = {Adaptive mesh refinement for hyperbolic partial differential equations},
+	 Volume = {53},
+	 Year = {1984}
+}
+
 @incollection{davis2017adaptive,
   author={Davis, P},
   title={Adaptive Mesh Refinement: An Essential Ingredient in Computational Science.},

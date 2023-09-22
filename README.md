@@ -5,7 +5,7 @@ Visualizations included the grid itself, with or without cell centers marked, an
 
 ```
 MATLAB Version: 9.10.0.1602886 (R2021a)
-Quinlan, James
+James Quinlan & James V. Lambers
 ```
  
 

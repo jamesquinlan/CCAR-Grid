@@ -19,7 +19,12 @@ Gridi, (Grid with an "i"), is an attempt to improve the original grid class.  Im
 3. Improve kron creation.  Look for idea, placed in comments, about generating without kron. 
 4. Consider private properties and functions in some cases.  
 5. Consider creating @classFolder.
-6. Consider creating small independent functions for constants, etc.  
+6. Consider creating small independent functions for constants, etc.
+7. Perhaps ID should be a column itself.  So instead of G.cells(:,19)
+    used as self-referential id to avoid FIND command, there should be an
+    ID property, i.e., G.id=(1:ncells)';  Then when looking for the cell
+    number with a certain condition, use G.id(G.cells(:,4)>0).  G.cell_id
+ 
 
 
 ## References

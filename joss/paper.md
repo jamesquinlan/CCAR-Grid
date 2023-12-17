@@ -2,7 +2,7 @@
 title: 'Cartesian Cell-based Anisotropic Grid Class'
 tags:
   - MATLAB
-  - grid
+  - 3d-grid
   - anisotropic
   - physics
 authors:
@@ -11,7 +11,7 @@ authors:
     equal-contrib: true
     affiliation: 1 # "1, 2" (Multiple affiliations must be quoted)
   - name: James V. Lambers
-    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
+    equal-contrib: true
     affiliation: 2
 affiliations:
  - name: University of Southern Maine, USA
@@ -29,7 +29,7 @@ Provide a summary.
 
 Why is it needed?
 
-Here is how you cite [@Pearson:2017], see below.
+Here is how you cite [@berger1984adaptive], see below.
 
 # Mathematics
 

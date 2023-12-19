@@ -7,7 +7,7 @@ tags:
   - physics
 authors:
   - name: James Quinlan
-    orcid: 0000-0000-0000-0000
+    orcid: 00000-0002-2628-1651
     equal-contrib: true
     affiliation: 1 # "1, 2" (Multiple affiliations must be quoted)
   - name: James V. Lambers
